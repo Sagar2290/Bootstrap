@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .topnav a {
+    width: 100%;
+  }
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url(img1.jpg);
+    background-size:100% 100%;
+    color: white;
+    float:left;
+    opacity:0.9;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #491B1D;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #743A36;
+}
+
+.side1 {  
+    background-color: #f1f1f1;
+    padding: 20px;
+    float:left;
+    background-image: url(doodle-6167833_1280.webp);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.main {
+  
+    background-color: white;
+    padding: 20px;
+    float:left;
+}
+
+.fakeimg {
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+.side2 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float:left;
+  background-image: url(doodle-6167833_1280.webp);
+  border-radius: 10px 0px 0px 10px;
+}
+
+/* Footer */
+.footer {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  background: #743A36;
+  float:left;
+}
+
+.footer:hover {
+  color: #743A36;
+  background-color: #491B1D;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .side1, .side2 {
+    border-radius: 10px 10px 10px 10px;
+  }
+
+}
